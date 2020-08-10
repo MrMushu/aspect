@@ -4,17 +4,17 @@
   padding: 30px 0;
   z-index: 100;
   flex-direction: row;
-  transition: 0.5s cubic-bezier(.2, .8, .2, 1)
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .HeaderScrolled {
   background: rgba(0, 0, 0, 0.7);
   padding: 10px 0;
-  backdrop-filter: blur(10px)
+  backdrop-filter: blur(10px);
 }
 
 .HeaderGroup {
-  max-width: 1300px;
+  max-width: 1600px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, auto);

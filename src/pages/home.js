@@ -116,13 +116,30 @@ const Home = () => (
       </div>
 
       <div className="Customize">
-        <h1>Features</h1>
+        <h1>Why aspect?</h1>
         <p>Personalize everything from colors, to font-sizes</p>
         <div className="CustomizeSection">
           <div>
             <img src={check}></img>
           </div>
-
+          <div className="CustomizeGroup">
+            <h4>Ease of Use</h4>
+            <p>Customize everything from font-size to order-type colors</p>
+          </div>
+        </div>
+        <div className="CustomizeSection">
+          <div>
+            <img src={check}></img>
+          </div>
+          <div className="CustomizeGroup">
+            <h4>Beautiful Design</h4>
+            <p>Customize everything from font-size to order-type colors</p>
+          </div>
+        </div>
+        <div className="CustomizeSection">
+          <div>
+            <img src={check}></img>
+          </div>
           <div className="CustomizeGroup">
             <h4>Fully Customizable</h4>
             <p>Customize everything from font-size to order-type colors</p>
@@ -138,14 +155,29 @@ const Home = () => (
             <p>Get detailed analytics about your store's performance.</p>
           </div>
         </div>
+        <div className="CustomizeSection">
+          <div>
+            <img src={check}></img>
+          </div>
+
+          <div className="CustomizeGroup">
+            <h4>Setup Email Updates</h4>
+            <p>Get automatic email updates about your store.</p>
+          </div>
+        </div>
+        <div className="CustomizeSection">
+          <div>
+            <img src={check}></img>
+          </div>
+
+          <div className="CustomizeGroup">
+            <h4>Integrate with Bump Bars</h4>
+            <p>Get automatic email updates about your store.</p>
+          </div>
+        </div>
       </div>
 
       <div className="Description">
-        <h1>Stay Informed</h1>
-        <p>Get detailed analytics updates about your store's performance. </p>
-      </div>
-      <div className="Description">
-        <h1>Get Connected</h1>
         <p>Watch a video demo ## play ding when order</p>
       </div>
     </div>

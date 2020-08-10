@@ -24,10 +24,10 @@ a {
 
 .HeroGroup {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 1800px;
   background-size: cover;
   background-position: center;
-  padding: 250px 25px 250px 125px;
+  padding: 250px 25px 275px 200px;
   text-align: left;
   justify-items: center;
   position: relative;
@@ -181,8 +181,8 @@ a {
   z-index: 2;
   margin-top: -8%;
   justify-content: center;
-  width: 90%;
-  max-width: 1800px;
+  width: 100%;
+  max-width: 1600px;
   align-self: center;
   justify-self: center;
 }
@@ -205,7 +205,7 @@ a {
 
 .HowSection {
   display: inline-flex;
-  width: 80%;
+  width: 75%;
   height: 200px;
   padding: 50px 50px;
   align-items: center;
@@ -214,7 +214,7 @@ a {
 
 .HowDescription {
   width: 50%;
-  padding: 0px 50px;
+  padding: 0px 100px;
 }
 
 .HowDescription img {
@@ -240,17 +240,24 @@ a {
 .Customize {
   display: inline-block;
   color: black;
-  width: 100%;
-  background-color: rgb(206, 215, 235);
-  padding: 100px 0 150px;
+  width: 75%;
+  background-color: rgb(255, 244, 221);
+  padding: 100px 100px 150px;
+  border-radius: 16px;
 }
 
 .Customize h1 {
   color: black;
   font-size: 28px;
   font-weight: 500;
+  text-align: start;
 }
-
+.Customize p {
+  color: rgb(102, 102, 102);
+  font-size: 22px;
+  font-weight: 500;
+  text-align: start;
+}
 .Customize img {
   height: 25px;
   width: 27px;
@@ -258,18 +265,18 @@ a {
 }
 
 .CustomizeSection {
-  width: 80%;
+  width: 100%;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
   align-self: center;
   justify-self: center;
-  padding: 0 10%;
+  padding: 0;
 }
 
 .CustomizeGroup {
   text-align: start;
-  width: 50%;
+  width: 20%;
   padding: 0;
 }
 
